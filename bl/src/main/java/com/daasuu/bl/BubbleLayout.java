@@ -97,7 +97,6 @@ public class BubbleLayout extends FrameLayout {
     }
 
     private void initPadding() {
-        return;
         int paddingLeft = getPaddingLeft();
         int paddingRight = getPaddingRight();
         int paddingTop = getPaddingTop();
@@ -128,7 +127,7 @@ public class BubbleLayout extends FrameLayout {
             paddingTop += mStrokeWidth;
             paddingBottom += mStrokeWidth;
         }
-        setPadding(paddingLeft, paddingTop, paddingRight, paddingBottom);
+        // setPadding(paddingLeft, paddingTop, paddingRight, paddingBottom);
     }
 
     private void resetPadding() {
